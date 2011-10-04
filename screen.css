@@ -26,13 +26,14 @@ html {
 		font-family: "Franklin Gothic Book", Arial, sans-serif;
 		font-size: 12px;
 		line-height: 18px;
+		background-color: #FFC8BF;
 
 }
 
 div#content {
 		width: 60%;
 		padding: 36px;
-		background-color: white;
+		background-color: #FFFFFF;
 }
 
 ul#navigation {
