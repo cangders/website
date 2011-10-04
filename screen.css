@@ -16,26 +16,33 @@ sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
 
 /* 
 begin Charise CSS
+grid is 18px
 */
 
 
 html {
-		padding: 50px;		
-		background: #FEF0C9;
+		padding: 36px;		
 		color: black;
 		font-family: "Franklin Gothic Book", Arial, sans-serif;
 		font-size: 12px;
-		margin-bottom: 18px;
+		line-height: 18px;
+
+}
+
+div#content {
+		width: 60%;
+		padding: 36px;
+		background-color: white;
 }
 
 ul#navigation {
         font-size: 16px;      
 		width: 25%;    
-		position: absolute;
+		position: relative;
         float: right;
-        right: 50px;
-		padding: 20px;
-		line-height: 24px;
+        right: 36px;
+		padding: 36px;
+		line-height: 36px;
 }
 
 ul#navigation a {
@@ -44,20 +51,11 @@ ul#navigation a {
 
 .image {
 		padding: 18px;
-
 }
 
 .caption {
 		width: 50%;
 		padding: 18px;
-
-
-}
-
-div#content {
-		width: 60%;
-		background: #FDFDF0;
-		padding: 20px;
 }
 
 ul {
@@ -82,7 +80,7 @@ ul.resume li li {
 
 ul.resume li.org { 
 		font-size: 16px;      
-		line-height: 24px;
+		line-height: 18px;
 		margin-top: 18px;
 }
 
@@ -105,9 +103,8 @@ h1 {
 
 h2 { 
 		font-size: 20px;
-		line-height: 30px;
+		line-height: 36px;
 		margin-bottom: 18px;
 	    margin-top: 18px;
 }
-
 

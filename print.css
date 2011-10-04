@@ -17,7 +17,6 @@ sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
 /* 
 begin Charise CSS
 */
-
 #header {
       display:none;
 }
@@ -37,6 +36,7 @@ html {
 		font-family: "Bell MT", "Times New Roman", serif;
 		font-weight: normal;
 		font-size: 10pt;
+
 }
 
 .image {
