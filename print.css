@@ -52,6 +52,31 @@ ul.address li{
 		list-style-type: none;
 }
 
+ul.resume li {
+		list-style-type: none;
+}
+
+/*make second line same indentation*/
+
+ul.resume li li { 
+		list-style: square inside; 
+		padding-left: 4em;
+}
+
+
+ul.resume li.org { 
+		font-size: 16px;      
+		line-height: 24px;
+		margin-top: 18px;
+}
+
+ul.resume li.locdate {
+		float: right;
+}
+
+ul.resume li.title {
+		font-weight: bold;
+}
 
 /*make second line same indentation*/
 
@@ -67,19 +92,3 @@ h2 {
 		
 }
 
-h3 { 
-		font-size: 11pt;      
-}
-
-
-h4 { 
-		font-size: 10pt;  
-}
-
-h4.locdate {
-      float: right;
-}
-
-h4.title {
-      font-weight: bold;
-}
