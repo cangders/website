@@ -27,27 +27,24 @@ html {
 		font-size: 12px;
 		line-height: 18px;
 		background-color: #FFC8BF;
+		background-image: url(img/18px-baseline.png);
 
 }
 
 div#content {
 		width: 60%;
-		padding: 36px;
 		background-color: #FFFFFF;
+		background-image: url(img/18px-baseline.png);
 }
 
 ul#navigation {
         font-size: 16px;      
-		width: 25%;    
-		position: relative;
-        float: right;
-        right: 36px;
-		padding: 36px;
 		line-height: 36px;
 }
 
-ul#navigation a {
-		text-decoration: none;
+ul#navigation li a:link, a:visited {
+		color: #FFF;
+				text-decoration: none;
 }
 
 .image {
