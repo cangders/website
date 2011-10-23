@@ -44,16 +44,13 @@ ul#navigation {
 
 ul#navigation li a:link, a:visited {
 		color: #FFF;
-				text-decoration: none;
+		text-decoration: none;
 }
 
 .image {
-		padding: 18px;
 }
 
 .caption {
-		width: 50%;
-		padding: 18px;
 }
 
 ul {
