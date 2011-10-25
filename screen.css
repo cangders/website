@@ -28,16 +28,16 @@ html {
 		line-height: 18px;
 		background-color: #FFC8BF;
 		background-image: url(img/18px-baseline.png);
-
 }
 
 div#content {
 		width: 60%;
 		background-color: #FFFFFF;
-		background-image: url(img/18px-baseline.png);
+				background-image: url(img/18px-baseline.png);
+
 }
 
-ul#navigation {
+ul#navigation li {
         font-size: 16px;      
 		line-height: 36px;
 }
@@ -45,12 +45,15 @@ ul#navigation {
 ul#navigation li a:link, a:visited {
 		color: #FFF;
 		text-decoration: none;
+		background-color: #FF0000;
 }
 
 .image {
+		padding: 18px 0 0 0;
 }
 
 .caption {
+		padding: 18px 0 0 0;
 }
 
 ul {
