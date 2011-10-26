@@ -21,24 +21,17 @@ grid is 18px
 
 
 html {
-
 		color: black;
 		font-family: "Franklin Gothic Book", Arial, sans-serif;
 		font-size: 12px;
 		line-height: 18px;
 		background-color: #FFC8BF;
-
-
 }
 
-/*
-background-image: url(img/18px-baseline.png)
-background-image: url(img/978px-15-54-15-unit.png)
-*/
 
 div#page {
         background-image: url('img/18px-baseline.png');
-    padding: 0px 15px 0px 15px;
+        padding: 0px 15px 0px 15px;
 }
 
 div#content {
@@ -48,7 +41,6 @@ div#content {
   font-size: 12px;
 
     background-image: url('img/978px-15-54-15-unit.png');
-
 }
 
 ul#navigation li {
@@ -64,11 +56,11 @@ ul#navigation li a:link, a:visited {
 }
 
 .image {
-		padding: 18px 0 0 0;
+
 }
 
 .caption {
-		padding: 18px 0 0 0;
+
 }
 
 ul {
