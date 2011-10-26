@@ -25,21 +25,23 @@ html {
 		font-size: 12px;
 		line-height: 18px;
 		background-color: #FFC8BF;
+    /*background-image: url('img/18px-baseline.png');*/
 }
 
 
 div#page {
-        background-image: url('img/18px-baseline.png');
-        padding: 0px 15px 0px 15px;
+
+    padding: 0px 15px 0px 15px;
+    /*background-image: url('img/978px-15-54-15-unit.png');*/
 }
 
 div#content {
-		/*width: 60%;
-		background-color: #FFFFFF;*/
-  line-height: 18px;
+	
+		/*background-color: #FFFFFF;*/
+ line-height: 18px;
   font-size: 12px;
 
-    background-image: url('img/978px-15-54-15-unit.png');
+
 }
 
 ul#navigation li {
