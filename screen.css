@@ -21,12 +21,13 @@ grid is 18px
 
 
 html {
-		padding: 36px 69px;		
+
 		color: black;
 		font-family: "Franklin Gothic Book", Arial, sans-serif;
 		font-size: 12px;
 		line-height: 18px;
 		background-color: #FFC8BF;
+
 
 }
 
@@ -35,9 +36,18 @@ background-image: url(img/18px-baseline.png)
 background-image: url(img/978px-15-54-15-unit.png)
 */
 
+div#page {
+        background-image: url('img/18px-baseline.png');
+    padding: 0px 15px 0px 15px;
+}
+
 div#content {
-		width: 60%;
-		background-color: #FFFFFF;
+		/*width: 60%;
+		background-color: #FFFFFF;*/
+  line-height: 18px;
+  font-size: 12px;
+
+    background-image: url('img/978px-15-54-15-unit.png');
 
 }
 
