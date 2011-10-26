@@ -19,7 +19,6 @@ begin Charise CSS
 grid is 18px
 */
 
-
 html {
 		color: black;
 		font-family: "Franklin Gothic Book", Arial, sans-serif;
@@ -44,7 +43,7 @@ div#content {
 }
 
 ul#navigation li {
-        font-size: 16px;      
+        font-size: 14px;      
 		line-height: 36px;
 }
 
