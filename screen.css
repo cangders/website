@@ -113,3 +113,14 @@ h2 {
 	    margin-top: 18px;
 }
 
+
+@media screen and (min-width: 1010px) {
+
+  div#page { /*Copy code from grid.css when done experimenting.*/ 
+margin: 0 auto;
+position: relative;
+  line-height: 18px;
+  font-size: 12px;
+    width: 978px; /*Total with works out to 1008*/
+    padding: 0px 15px 0px 15px;
+}
