@@ -17,22 +17,23 @@ sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
 /* 
 begin Charise CSS
 grid is 18px
+978 grid system
 */
 
 html {
 		color: black;
-		font-family: "Franklin Gothic Book", Arial, sans-serif;
+		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
 		font-size: 12px;
 		line-height: 18px;
 		background-color: #FFC8BF;
-    /*background-image: url('img/18px-baseline.png');*/
+    background-image: url('img/18px-baseline.png');
 }
 
 
 div#page {
 
     padding: 0px 15px 0px 15px;
-    /*background-image: url('img/978px-15-54-15-unit.png');*/
+    background-image: url('img/978px-15-54-15-unit.png');
 }
 
 div#content {
@@ -62,6 +63,10 @@ ul#navigation li a:link, a:visited {
 
 .caption {
 
+}
+
+.title {
+	font-size: 16px;
 }
 
 ul {
