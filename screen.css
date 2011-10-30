@@ -16,41 +16,34 @@ sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
 
 /* 
 begin Charise CSS
-grid is 18px
+grid is 20px
 978 grid system
 */
 
 html {
 		color: black;
 		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
-		font-size: 12px;
-		line-height: 18px;
+		font-size: 14px;
+		line-height: 20px;
 		background-color: #FFC8BF;
-    background-image: url('img/18px-baseline.png');
+		background-image: url('img/20px-baseline.png');
 }
 
 
 div#page {
-
-    padding: 0px 15px 0px 15px;
-    background-image: url('img/978px-15-54-15-unit.png');
+		background-image: url('img/978px-15-54-15-unit.png');
 }
 
-div#content {
-	
+div#content {	
 		/*background-color: #FFFFFF;*/
- line-height: 18px;
-  font-size: 12px;
-
-
 }
 
 ul#navigation li {
-        font-size: 14px;      
-		line-height: 36px;
+		font-size: 16px;      
+		line-height: 40px;
 }
 
-ul#navigation li a:link, a:visited {
+ul#navigation li a:link, ul#navigation a:visited {
 		color: #FFF;
 		text-decoration: none;
 		background-color: #FF0000;
@@ -58,19 +51,18 @@ ul#navigation li a:link, a:visited {
 }
 
 .image {
-
 }
 
 .caption {
-
 }
 
 .title {
-	font-size: 16px;
+		font-size: 16px;
+		line-height: 40px;
 }
 
 ul {
-		margin-top: 18px;
+		margin-top: 20px;
 }
 
 ul.address li{
@@ -91,8 +83,8 @@ ul.resume li li {
 
 ul.resume li.org { 
 		font-size: 16px;      
-		line-height: 18px;
-		margin-top: 18px;
+		line-height: 20px;
+		margin-top: 20px;
 }
 
 ul.resume li.locdate {
@@ -107,26 +99,26 @@ ul.resume li.title {
 /*baseline grid per Miner, line height %150 of font-size*/
 
 h1 { 
-	     font-size: 24px;
-	     line-height: 36px;
-	     margin-bottom: 18px;
+		font-size: 24px;
+		line-height: 40px;
+		margin-bottom: 20px;
 }
 
 h2 { 
 		font-size: 20px;
-		line-height: 36px;
-		margin-bottom: 18px;
-	    margin-top: 18px;
+		line-height: 40px;
+		margin-bottom: 20px;
+	    margin-top: 20px;
 }
 
 
 @media screen and (min-width: 1010px) {
 
   div#page { /*Copy code from grid.css when done experimenting.*/ 
-margin: 0 auto;
-position: relative;
-  line-height: 18px;
-  font-size: 12px;
-    width: 978px; /*Total with works out to 1008*/
-    padding: 0px 15px 0px 15px;
+		margin: 0 auto;
+		position: relative;
+		line-height: 20px;
+		width: 978px; /*Total with works out to 1008*/
+		padding: 0px 15px 0px 15px;
+		}
 }
