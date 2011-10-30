@@ -111,6 +111,9 @@ h2 {
 	    margin-top: 20px;
 }
 
+p {
+		margin-bottom: 20px;
+}
 
 @media screen and (min-width: 1010px) {
 
