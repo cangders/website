@@ -135,5 +135,12 @@ p {
 		padding: 0px 15px 0px 15px;
 		}
 
+  .caption {
+      position: absolute;        
+      float: left;
+      left: 321px; /* 252 + 54 + 15 */
+   
+          
+  }
 
 }
