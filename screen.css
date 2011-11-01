@@ -53,7 +53,17 @@ ul#navigation li a:link, ul#navigation a:visited {
 		padding: 3px;
 }
 
-.image {
+ul.image li{
+		float: left;
+		height: 200px;
+		width: 252px;
+
+
+		margin-bottom: 20px;
+}
+
+img {
+		max-width: 100%;
 }
 
 .caption {
