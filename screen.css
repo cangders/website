@@ -50,7 +50,7 @@ ul#navigation li a:link, ul#navigation a:visited {
 		padding: 3px;
 }
 
-ul.image li{
+.image {
 
 		height: 200px;
 		width: 252px;
