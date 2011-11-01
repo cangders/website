@@ -52,14 +52,16 @@ ul#navigation li a:link, ul#navigation a:visited {
 
 .image {
 
-		height: 200px;
-		width: 252px;
+		height: 199px;
+		width: 251px;
     margin-bottom: 20px;
 
 }
 
 img {
 		max-width: 100%;
+    display: block;
+    border: 1px solid #000;
 }
 
 .caption {
