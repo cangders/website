@@ -55,6 +55,7 @@ ul#navigation li a:link, ul#navigation a:visited {
 		height: 200px;
 		width: 252px;
 
+
 }
 
 img {
@@ -68,8 +69,6 @@ img {
 .title {
 		font-size: 16px;
 		line-height: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 ul {
