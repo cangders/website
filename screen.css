@@ -29,7 +29,6 @@ html {
 		background-image: url('img/20px-baseline.png');
 }
 
-
 div#page {
 		background-image: url('img/978px-15-54-15-unit.png');
 }
@@ -43,8 +42,6 @@ ul#navigation li {
 		line-height: 40px;
 		margin-bottom: 20px;
 }
-
-
 
 ul#navigation li a:link, ul#navigation a:visited {
 		color: #FFF;
