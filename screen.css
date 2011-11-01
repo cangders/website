@@ -139,7 +139,6 @@ p {
 
   .caption {
       position: absolute;        
-      float: left;
       left: 321px; /* 252 + 54 + 15 */
    
           
