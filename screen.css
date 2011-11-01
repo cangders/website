@@ -41,7 +41,10 @@ div#content {
 ul#navigation li {
 		font-size: 16px;      
 		line-height: 40px;
+		margin-bottom: 20px;
 }
+
+
 
 ul#navigation li a:link, ul#navigation a:visited {
 		color: #FFF;
@@ -124,4 +127,19 @@ p {
 		width: 978px; /*Total with works out to 1008*/
 		padding: 0px 15px 0px 15px;
 		}
+
+	ul#navigation li {
+		float: left;
+		}
+	ul#navigation li + li {
+		margin-left: 116px;
+	}	
+	ul#navigation li + li + li{
+		margin-left: 87px;
+	}
+	
+	ul#navigation li + li + li + li{
+		margin-left: 102px;
+		margin-right: 400px;
+	}
 }
