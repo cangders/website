@@ -54,10 +54,10 @@ ul#navigation li a:link, ul#navigation a:visited {
 }
 
 ul.image li{
-		float: left;
+
 		height: 200px;
 		width: 252px;
-		margin-bottom: 20px;
+
 }
 
 img {
@@ -69,7 +69,9 @@ img {
 
 .title {
 		font-size: 16px;
-		line-height: 40px;
+		line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -136,18 +138,5 @@ p {
 		padding: 0px 15px 0px 15px;
 		}
 
-	ul#navigation li {
-		float: left;
-		}
-	ul#navigation li + li {
-		margin-left: 116px;
-	}	
-	ul#navigation li + li + li{
-		margin-left: 87px;
-	}
-	
-	ul#navigation li + li + li + li{
-		margin-left: 102px;
-		margin-right: 400px;
-	}
+
 }
