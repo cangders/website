@@ -62,6 +62,7 @@ img {
 }
 
 .caption {
+    		width: 252px;
 }
 
 .title {
@@ -90,7 +91,7 @@ ul.resume li li {
 		padding-left: 4em;
 }
 
-
+		width: 252px;
 ul.resume li.org { 
 		font-size: 16px;      
 		line-height: 20px;
