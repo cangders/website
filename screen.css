@@ -219,9 +219,9 @@ p {
             margin-top: 80px;
           }
 
-            div#page { /*Copy code from grid.css when done experimenting.*/ 
+            div#page { 
 
-		          width: 768px; /*Total with works out to 1008*/
+		          width: 768px;
 		          padding: 0px 15px 0px 15px;
 		          }
 
@@ -231,7 +231,7 @@ p {
 
             .caption {
                 position: relative;        
-                left: 336px; /* 252 + 54 + 30 */
+                left: 336px; 
                     
             }
 
