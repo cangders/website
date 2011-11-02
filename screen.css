@@ -43,9 +43,6 @@ ul#navigation li {
 		font-size: 16px;      
 		line-height: 40px;
 		margin-bottom: 20px;
-    float: left;
-    width: 84px;
-    margin-right: 84px;
 }
 
 ul#navigation li a:link, ul#navigation a:visited {
@@ -56,16 +53,10 @@ ul#navigation li a:link, ul#navigation a:visited {
 
 }
 
-#navigation {
-  position: absolute;
-}
 
 /* end Navigation */
 
-#content {
-  position: relative;
-  margin-top: 100px;
-}
+
 
 .image {
 
@@ -147,6 +138,32 @@ p {
 /* media queries for 1010px*/
 
 @media screen and (min-width: 1010px) {
+
+  ul#navigation li {
+		font-size: 16px;      
+		line-height: 40px;
+		margin-bottom: 20px;
+    float: left;
+    width: 84px;
+    margin-right: 84px;
+}
+
+ul#navigation li a:link, ul#navigation a:visited {
+		color: #FFF;
+		text-decoration: none;
+		background-color: #FF0000;
+		padding: 3px;
+
+}
+
+#navigation {
+  position: absolute;
+}
+
+#content {
+  position: relative;
+  margin-top: 100px;
+}
 
   div#page { /*Copy code from grid.css when done experimenting.*/ 
 		margin: 0 auto;
