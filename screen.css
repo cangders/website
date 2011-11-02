@@ -25,8 +25,9 @@ html {
 		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
 		font-size: 14px;
 		line-height: 20px;
-		background-color: #FFC8BF;
-		background-image: url('img/20px-baseline.png');
+		background-color: #FFF;
+		/*background-image: url('img/20px-baseline.png');*/
+
 }
 
 div#page {
@@ -37,7 +38,7 @@ div#page {
 }
 
 div#content {	
-		/*background-color: #FFFFFF;*/
+		background-color: #FFC8BF;
 }
 
 /* Navigation */
@@ -153,7 +154,7 @@ p {
 		          padding: 3px;
           }
 
-          #navigation {
+        #FFC8BF  #navigation {
             position: absolute;
           }
 
