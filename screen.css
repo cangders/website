@@ -107,9 +107,6 @@ ul.resume li.org {
 		margin-top: 20px;
 }
 
-ul.resume li.locdate {
-		float: right;
-}
 
 ul.resume li.title {
 		font-weight: bold;
@@ -182,6 +179,11 @@ ul#navigation li a:link, ul#navigation a:visited {
       left: 336px; /* 252 + 54 + 30 */
           
   }
+
+
+ul.resume li.locdate {
+		float: right;
+}
 
 }
 
