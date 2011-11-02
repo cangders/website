@@ -135,55 +135,113 @@ p {
 
 /* media queries for 1010px*/
 
-@media screen and (min-width: 1010px) {
+          @media screen and (min-width: 1010px) {
 
-  ul#navigation li {
-		font-size: 16px;      
-		line-height: 40px;
-		margin-bottom: 20px;
-    float: left;
-    width: 84px;
-    margin-right: 84px;
-}
+            ul#navigation li {
+		          font-size: 16px;      
+		          line-height: 40px;
+		          margin-bottom: 20px;
+              float: left;
+              width: 84px;
+              margin-right: 84px;
+          }
 
-ul#navigation li a:link, ul#navigation a:visited {
-		color: #FFF;
-		text-decoration: none;
-		background-color: #FF0000;
-		padding: 3px;
-}
+          ul#navigation li a:link, ul#navigation a:visited {
+		          color: #FFF;
+		          text-decoration: none;
+		          background-color: #FF0000;
+		          padding: 3px;
+          }
 
-#navigation {
-  position: absolute;
-}
+          #navigation {
+            position: absolute;
+          }
 
-#content {
-  position: relative;
-  margin-top: 80px;
-}
+          #content {
+            position: relative;
+            margin-top: 80px;
+          }
 
-  div#page { /*Copy code from grid.css when done experimenting.*/ 
+            div#page { /*Copy code from grid.css when done experimenting.*/ 
 
-		width: 978px; /*Total with works out to 1008*/
-		padding: 0px 15px 0px 15px;
-		}
+		          width: 978px; /*Total with works out to 1008*/
+		          padding: 0px 15px 0px 15px;
+		          }
 
-  .image {
-      position: absolute;  
-  }
+            .image {
+                position: absolute;  
+            }
 
-  .caption {
-      position: relative;        
-      left: 336px; /* 252 + 54 + 30 */
-          
-  }
+            .caption {
+                position: relative;        
+                left: 336px; /* 252 + 54 + 30 */
+                    
+            }
 
 
-ul.resume li.locdate {
-		float: right;
-}
+          ul.resume li.locdate {
+		          float: right;
+          }
 
-}
+          }
 
 /* end of media queries for 1010px */
+
+
+
+
+/* media queries for 748px
+
+          @media screen and (min-width: 768px) {
+
+            ul#navigation li {
+		          font-size: 16px;      
+		          line-height: 40px;
+		          margin-bottom: 20px;
+              float: left;
+              width: 84px;
+              margin-right: 84px;
+          }
+
+          ul#navigation li a:link, ul#navigation a:visited {
+		          color: #FFF;
+		          text-decoration: none;
+		          background-color: #FF0000;
+		          padding: 3px;
+          }
+
+          #navigation {
+            position: absolute;
+          }
+
+          #content {
+            position: relative;
+            margin-top: 80px;
+          }
+
+            div#page { /*Copy code from grid.css when done experimenting.*/ 
+
+		          width: 768px; /*Total with works out to 1008*/
+		          padding: 0px 15px 0px 15px;
+		          }
+
+            .image {
+                position: absolute;  
+            }
+
+            .caption {
+                position: relative;        
+                left: 336px; /* 252 + 54 + 30 */
+                    
+            }
+
+
+          ul.resume li.locdate {
+		          float: right;
+          }
+
+          }
+
+ end of media queries for 748px */
+
 
