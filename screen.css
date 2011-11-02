@@ -37,10 +37,15 @@ div#content {
 		/*background-color: #FFFFFF;*/
 }
 
+/* Navigation */
+
 ul#navigation li {
 		font-size: 16px;      
 		line-height: 40px;
 		margin-bottom: 20px;
+    float: left;
+    width: 54px;
+    margin-right: 30px;
 }
 
 ul#navigation li a:link, ul#navigation a:visited {
@@ -48,7 +53,10 @@ ul#navigation li a:link, ul#navigation a:visited {
 		text-decoration: none;
 		background-color: #FF0000;
 		padding: 3px;
+
 }
+
+/* end Navigation */
 
 .image {
 
@@ -120,12 +128,14 @@ h2 {
 		font-size: 20px;
 		line-height: 40px;
 		margin-bottom: 20px;
-	    margin-top: 20px;
+	  margin-top: 20px;
 }
 
 p {
 		margin-bottom: 20px;
 }
+
+/* media queries for 1010px*/
 
 @media screen and (min-width: 1010px) {
 
@@ -140,8 +150,8 @@ p {
   .caption {
       position: absolute;        
       left: 321px; /* 252 + 54 + 15 */
-   
           
   }
 
 }
+
