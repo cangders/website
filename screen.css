@@ -109,7 +109,7 @@ ul.resume li li {
 		padding-left: 4em;
 }
 
-		width: 252px;
+
 ul.resume li.org { 
 		font-size: 16px;      
 		line-height: 20px;
@@ -150,15 +150,19 @@ p {
 
   div#page { /*Copy code from grid.css when done experimenting.*/ 
 		margin: 0 auto;
-		position: relative;
+
 		line-height: 20px;
 		width: 978px; /*Total with works out to 1008*/
 		padding: 0px 15px 0px 15px;
 		}
 
+  .image {
+      position: absolute;  
+  }
+
   .caption {
-      position: absolute;        
-      left: 321px; /* 252 + 54 + 15 */
+      position: relative;        
+      left: 336px; /* 252 + 54 + 30 */
           
   }
 
