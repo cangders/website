@@ -31,14 +31,14 @@ html {
 }
 
 div#page {
-		/*background-image: url('img/978px-15-54-15-unit.png');*/
+		background-image: url('img/978px-15-54-15-unit.png'); /*vertical gridlines*/
     margin-left: 15px;
     margin-right: 15px;
 		margin: 0 auto;
 }
 
 div#content {	
-		background-color: #FFC8BF;
+		/*background-color: #FFC8BF;*/
 }
 
 /* Navigation */
@@ -171,12 +171,15 @@ p {
 
             .image {
                 position: absolute;  
+					height: 199px; /*199+54 */
+		width: 305px;/*251+54 */
+    margin-bottom: 20px;
             }
 
             .caption {
                 position: relative;        
-                left: 336px; /* 252 + 54 + 30 */
-                    
+                left: 420px; /* 336+54+30 */    
+				width: 252px; /*252 + 52 = 304*/
             }
 
 
@@ -184,7 +187,8 @@ p {
 		          float: right;
           }
 
-          }
+		  
+}
 
 /* end of media queries for 1010px */
 
