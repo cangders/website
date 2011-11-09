@@ -26,7 +26,7 @@ html {
 		font-size: 14px;
 		line-height: 20px;
 		background-color: #FFF;
-		background-image: url('img/20px-baseline.png');
+	/*	background-image: url('img/20px-baseline.png');*/
 }
 
 div#page {
@@ -154,7 +154,7 @@ p {
 
             div#page { 
 
-		          width: 768px;
+		          width: 768px; /* 768px divided by */
 		          padding: 0px 15px 0px 15px;
 		          }
 
@@ -199,16 +199,18 @@ p {
             position: absolute;
           }
 
+/*Supporting CSS*/
+
 ul#supporting {
           float: right;
           margin-top: 100px;
-		          background-color: #FF0000;
+		      background-color: #FF0000;
+           padding: 20px 14px;
 }
 
 ul#supporting li a:link, ul#supporting a:visited {
 		          color: #FFF;
 		          text-decoration: none;
-
 		          padding: 0px;
 
           }
