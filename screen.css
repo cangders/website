@@ -226,6 +226,10 @@ p {
 		          padding: 0px 15px 0px 15px;
 		          }
 
+.intro {
+    width: 600px;
+}
+
             .image {
                 position: absolute;  
 					height: 199px; /*199+60 */
