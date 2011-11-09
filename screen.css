@@ -31,7 +31,7 @@ html {
 }
 
 div#page {
-		background-image: url('img/978px-15-54-15-unit.png'); /*vertical gridlines*/
+		/*background-image: url('img/978px-15-54-15-unit.png');*/ /*vertical gridlines*/
     margin-left: 15px;
     margin-right: 15px;
 		margin: 0 auto;
@@ -134,9 +134,66 @@ p {
 		margin-bottom: 20px;
 }
 
+/* media queries for 768px */
+
+       @media screen and (min-width: 768px) {
+
+            ul#navigation li {
+		          font-size: 16px;      
+		          line-height: 40px;
+		          margin-bottom: 20px;
+              float: left;
+              width: 84px;
+              margin-right: 84px;
+          }
+
+          ul#navigation li a:link, ul#navigation a:visited {
+		          color: #FFF;
+		          text-decoration: none;
+		          background-color: #FF0000;
+		          padding: 3px;
+          }
+
+          #navigation {
+            position: absolute;
+          }
+
+          #content {
+            position: relative;
+            margin-top: 80px;
+          }
+
+            div#page { 
+
+		          width: 768px;
+		          padding: 0px 15px 0px 15px;
+		          }
+
+            .image {
+                position: absolute;  
+            }
+
+            .caption {
+                position: relative;        
+                left: 336px; 
+                    
+            }
+
+
+          ul.resume li.locdate {
+		          float: right;
+          }
+
+          }
+
+ /*end of media queries for 748px */
+
+
+
+
 /* media queries for 1010px*/
 
-          @media screen and (min-width: 1010px) {
+          @media screen and (min-width: 900px) { /*1010px*/
 
             ul#navigation li {
 		          font-size: 16px;      
@@ -192,62 +249,4 @@ p {
 }
 
 /* end of media queries for 1010px */
-
-
-
-
-/* media queries for 748px
-
-          @media screen and (min-width: 768px) {
-
-            ul#navigation li {
-		          font-size: 16px;      
-		          line-height: 40px;
-		          margin-bottom: 20px;
-              float: left;
-              width: 84px;
-              margin-right: 84px;
-          }
-
-          ul#navigation li a:link, ul#navigation a:visited {
-		          color: #FFF;
-		          text-decoration: none;
-		          background-color: #FF0000;
-		          padding: 3px;
-          }
-
-          #navigation {
-            position: absolute;
-          }
-
-          #content {
-            position: relative;
-            margin-top: 80px;
-          }
-
-            div#page { 
-
-		          width: 768px;
-		          padding: 0px 15px 0px 15px;
-		          }
-
-            .image {
-                position: absolute;  
-            }
-
-            .caption {
-                position: relative;        
-                left: 336px; 
-                    
-            }
-
-
-          ul.resume li.locdate {
-		          float: right;
-          }
-
-          }
-
- end of media queries for 748px */
-
 
