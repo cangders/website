@@ -171,7 +171,7 @@ p {
 
             .image {
                 position: absolute;  
-					height: 199px; /*199+54 */
+					height: 199px; /*199+60 */
 		width: 305px;/*251+54 */
     margin-bottom: 20px;
             }
@@ -179,7 +179,8 @@ p {
             .caption {
                 position: relative;        
                 left: 420px; /* 336+54+30 */    
-				width: 252px; /*252 + 52 = 304*/
+				width: 304px; /*252 + 52 = 304*/
+        height: 259px; /*199+60*/
             }
 
 
