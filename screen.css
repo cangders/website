@@ -27,7 +27,6 @@ html {
 		line-height: 20px;
 		background-color: #FFF;
 		/*background-image: url('img/20px-baseline.png');*/
-
 }
 
 div#page {
@@ -54,7 +53,6 @@ ul#navigation li a:link, ul#navigation a:visited {
 		text-decoration: none;
 		background-color: #FF0000;
 		padding: 3px;
-
 }
 
 
@@ -63,11 +61,9 @@ ul#navigation li a:link, ul#navigation a:visited {
 
 
 .image {
-
 		height: 199px;
 		width: 251px;
     margin-bottom: 20px;
-
 }
 
 img {
@@ -147,13 +143,6 @@ p {
               margin-right: 84px;
           }
 
-          ul#navigation li a:link, ul#navigation a:visited {
-		          color: #FFF;
-		          text-decoration: none;
-		          background-color: #FF0000;
-		          padding: 3px;
-          }
-
           #navigation {
             position: absolute;
           }
@@ -175,21 +164,15 @@ p {
 
             .caption {
                 position: relative;        
-                left: 336px; 
-                    
+                left: 336px;                 
             }
-
 
           ul.resume li.locdate {
 		          float: right;
           }
+}
 
-          }
-
- /*end of media queries for 748px */
-
-
-
+/*end of media queries for 748px */
 
 /* media queries for 1010px*/
 
@@ -226,30 +209,28 @@ p {
 		          padding: 0px 15px 0px 15px;
 		          }
 
-.intro {
-    width: 600px;
-}
+      .intro {
+          width: 600px;
+          }
 
             .image {
-                position: absolute;  
+          position: absolute;  
 					height: 199px; /*199+60 */
-		width: 305px;/*251+54 */
-    margin-bottom: 20px;
+		      width: 305px;/*251+54 */
+          margin-bottom: 20px;
             }
 
             .caption {
                 position: relative;        
                 left: 420px; /* 336+54+30 */    
-				width: 304px; /*252 + 52 = 304*/
-        height: 259px; /*199+60*/
+				        width: 304px; /*252 + 52 = 304*/
+               height: 259px; /*199+60*/
             }
 
 
           ul.resume li.locdate {
 		          float: right;
           }
-
-		  
 }
 
 /* end of media queries for 1010px */
