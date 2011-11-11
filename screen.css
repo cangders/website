@@ -138,51 +138,6 @@ p {
 		margin-bottom: 20px;
 }
 
-/* media queries for 768px */
-
-       @media screen and (min-width: 768px) {
-
-            ul#navigation li {
-		          font-size: 16px;      
-		          line-height: 40px;
-		          margin-bottom: 20px;
-              float: left;
-              width: 84px;
-              margin-right: 84px;
-          }
-
-          #navigation {
-            position: absolute;
-          }
-
-          #content {
-            position: relative;
-            margin-top: 80px;
-          }
-
-            div#page { 
-
-		          width: 768px; /* 768px divided by */
-		          padding: 0px 15px 0px 15px;
-		          }
-
-            .image {
-                position: absolute;  
-            }
-
-            .caption {
-                position: relative;        
-                left: 336px;                 
-            }
-
-          ul.resume li.locdate {
-		          float: right;
-          }
-} 
-
-
-/*end of media queries for 748px */
-
 /* media queries for 1010px*/
 
 @media screen and (min-width: 900px) { /*1010px*/
