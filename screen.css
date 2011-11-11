@@ -53,10 +53,10 @@ ul#navigation li a:link, ul#navigation a:visited {
 
 /* end Navigation */
 ul#supporting li a:link, ul#supporting a:visited {
-			color: #FFF;
-			text-decoration: none;
-			padding: 0px;
-			}
+		color: #FFF;
+		text-decoration: none;
+		padding: 0px;
+		}
 			
 ul#supporting li {
 		line-height: 40px;
@@ -187,25 +187,24 @@ p {
 
 @media screen and (min-width: 900px) { /*1010px*/
 		#topbar {
-			background-color: #FF0000;
+			border-color: #cc3421;
 			}
 			
 		ul#navigation li {
 			font-size: 16px;      
 			line-height: 20px;
-			float: left;
 			width: 84px;
 			margin-right: 84px;
 			}
 
 		ul#navigation li a:link, ul#navigation a:visited{
-			color: #FFF;
+			color: #000;
 			text-decoration: none;
 			padding: 0px;
 			}
 			
 		ul#navigation {
-			background-color: #FF0000;
+	
 			}
 
 /*Supporting CSS*/
