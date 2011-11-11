@@ -49,6 +49,21 @@ ul#navigation li a:link, ul#navigation a:visited {
 }
 
 /* end Navigation */
+ul#supporting li a:link, ul#supporting a:visited {
+			color: #FFF;
+			text-decoration: none;
+			padding: 0px;
+			}
+			
+ul#supporting li {
+		line-height: 40px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding: 0 0 0 10px;
+		background-color: #FF0000;
+}
+
+/*begin specific CSS for portfolio page*/
 
 .image {
 		height: 199px;
@@ -56,7 +71,7 @@ ul#navigation li a:link, ul#navigation a:visited {
 		margin-bottom: 20px;
 }
 
-/*begin specific CSS for portfolio page*/
+
 
 img {
 		max-width: 100%;
@@ -193,12 +208,19 @@ p {
 			text-decoration: none;
 			padding: 0px;
 			}
+		
+		ul#supporting li {
+			line-height: 40px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			padding: 0 0 0 10px;
+			background-color: #FF0000;
+			}
 
 /* sidebar css */
 		#sidebar {
 			float: right;
 			margin-top: 100px;
-			background-color: #FF0000;
 			width: 222px; /* 54x3 + 2x30 */
 			}
 
