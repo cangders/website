@@ -36,6 +36,10 @@ div#content {
 
 /* Navigation */
 
+#topbar {
+		background-color: #FF0000
+}
+
 ul#navigation li {
 		font-size: 16px;      
 		line-height: 40px;
@@ -44,7 +48,6 @@ ul#navigation li {
 ul#navigation li a:link, ul#navigation a:visited {
 		color: #FFF;
 		text-decoration: none;
-		background-color: #FF0000;
 		padding: 3px;
 }
 
@@ -183,7 +186,10 @@ p {
 /* media queries for 1010px*/
 
 @media screen and (min-width: 900px) { /*1010px*/
-
+		#topbar {
+			background-color: #FF0000;
+			}
+			
 		ul#navigation li {
 			font-size: 16px;      
 			line-height: 20px;
@@ -219,6 +225,7 @@ p {
 
 /* sidebar css */
 		#sidebar {
+			position: relative;
 			float: right;
 			margin-top: 100px;
 			width: 222px; /* 54x3 + 2x30 */
