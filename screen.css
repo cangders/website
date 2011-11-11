@@ -196,7 +196,7 @@ p {
           }
 
   #navigation {
-            position: absolute;
+            position: absolute; /*this causes navigation to be "on top", if links fall behind it you can't click it or is it the body??? */
           }
 
 /*Supporting CSS*/
@@ -219,6 +219,7 @@ ul#supporting li a:link, ul#supporting a:visited {
           #content {
             position: relative;
             margin-top: 80px;
+			width: 60%;
           }
 
             div#page { /*Copy code from grid.css when done experimenting.*/ 
