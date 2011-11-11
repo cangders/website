@@ -20,11 +20,11 @@ html {
 		font-size: 14px;
 		line-height: 20px;
 		background-color: #FFF;
-		/*	background-image: url('img/20px-baseline.png');*/
+		background-image: url('img/20px-baseline.png');
 }
 
 div#page {
-		/*background-image: url('img/978px-15-54-15-unit.png');*/ /*vertical gridlines*/
+		background-image: url('img/978px-15-54-15-unit.png'); /*vertical gridlines*/
 		margin-left: 15px;
 		margin-right: 15px;
 		margin: 0 auto;
@@ -186,7 +186,6 @@ p {
 		#sidebar {
 			position: relative;
 			float: right;
-			margin-top: 100px;
 			width: 222px; /* 54x3 + 2x30 */
 			}
 
