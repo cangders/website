@@ -45,7 +45,6 @@ div#content {
 ul#navigation li {
 		font-size: 16px;      
 		line-height: 40px;
-
 }
 
 ul#navigation li a:link, ul#navigation a:visited {
@@ -81,7 +80,7 @@ img {
 		line-height: 40px;
 }
 
-ul {
+ul.resume, ul.address {
 		margin-top: 20px;
 }
 
@@ -177,79 +176,72 @@ p {
 
 /* media queries for 1010px*/
 
-          @media screen and (min-width: 900px) { /*1010px*/
+@media screen and (min-width: 900px) { /*1010px*/
 
-            ul#navigation li {
-		          font-size: 16px;      
-		          line-height: 40px;
-		          margin-bottom: 20px;
-              float: left;
-              width: 84px;
-              margin-right: 84px;
-          }
+		ul#navigation li {
+			font-size: 16px;      
+			line-height: 20px;
+			float: left;
+			width: 84px;
+			margin-right: 84px;
+			}
 
-          ul#navigation li a:link, ul#navigation a:visited{
-		          color: #FFF;
-		          text-decoration: none;
-		          background-color: #FF0000;
-		          padding: 3px;
-          }
-
-  #navigation {
-            position: absolute; /*this causes navigation to be "on top", if links fall behind it you can't click it or is it the body??? */
-          }
+		ul#navigation li a:link, ul#navigation a:visited{
+			color: #FFF;
+			text-decoration: none;
+			padding: 0px;
+			}
+			
+		ul#navigation {
+			background-color: #FF0000;
+			}
 
 /*Supporting CSS*/
-
-
-ul#supporting li a:link, ul#supporting a:visited {
-		          color: #FFF;
-		          text-decoration: none;
-		          padding: 0px;
-          }
+		ul#supporting li a:link, ul#supporting a:visited {
+			color: #FFF;
+			text-decoration: none;
+			padding: 0px;
+			}
 
 /* sidebar css */
-#sidebar {
-          float: right;
-          margin-top: 100px;
-		      background-color: #FF0000;
-          width: 222px; /* 54x3 + 2x30 */
-}
+		#sidebar {
+			float: right;
+			margin-top: 100px;
+			background-color: #FF0000;
+			width: 222px; /* 54x3 + 2x30 */
+			}
 
-          #content {
-            position: relative;
-            margin-top: 80px;
+		#content {
+			margin-top: 80px;
 			width: 60%;
-          }
+			}
 
-            div#page { /*Copy code from grid.css when done experimenting.*/ 
+		div#page { /*Copy code from grid.css when done experimenting.*/ 
+			width: 978px; /*Total with works out to 1008*/
+			padding: 0px 15px 0px 15px;
+			}
 
-		          width: 978px; /*Total with works out to 1008*/
-		          padding: 0px 15px 0px 15px;
-		          }
+		.intro {
+			width: 600px;
+			}
 
-      .intro {
-          width: 600px;
-          }
+		.image {
+			position: absolute;  
+			height: 199px; /*199+60 */
+			width: 305px;/*251+54 */
+			margin-bottom: 20px;
+			}
 
-            .image {
-          position: absolute;  
-					height: 199px; /*199+60 */
-		      width: 305px;/*251+54 */
-          margin-bottom: 20px;
-            }
+		.caption {
+			position: relative;        
+			left: 420px; /* 336+54+30 */    
+			width: 304px; /*252 + 52 = 304*/
+			height: 259px; /*199+60*/
+			}
 
-            .caption {
-                position: relative;        
-                left: 420px; /* 336+54+30 */    
-				        width: 304px; /*252 + 52 = 304*/
-               height: 259px; /*199+60*/
-            }
-
-
-          ul.resume li.locdate {
-		          float: right;
-          }
+		ul.resume li.locdate {
+			float: right;
+			}
 }
 
 /* end of media queries for 1010px */
