@@ -150,6 +150,7 @@ p {
 			line-height: 20px;
 			width: 84px;
 			margin-right: 84px;
+			float: left;
 			}
 
 		ul#navigation li a:link, ul#navigation a:visited{
