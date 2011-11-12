@@ -72,9 +72,9 @@ ul#supporting li {
 /*begin specific CSS for portfolio page*/
 
 .image {
-		height: 199px;
+		/*height: 199px;
 		width: 251px;
-		margin-bottom: 20px;
+		margin-bottom: 20px;*/
 }
 
 
@@ -210,7 +210,7 @@ p {
 		.image {
 			/*position: absolute;*/ 
 			/*height: 199px;*/ /*15x20= 300 - 2px (border) = 298px  */
-			/*width: 40.4761905%;*//* 4colx54 + 4gx30 = 306px / 756px */
+			width: 40.4761905%;/* 4colx54 + 4gx30 = 306px / 756px */
 			margin-bottom: 20px;
 			float: left;
 			}
@@ -220,6 +220,7 @@ p {
 			/*left: 55.5555556%;*/ /* 420px/756px */    
 			width: 40.2116402%; /*304/756px */
 			/*height: 259px;*/ /*199+60*/
+			margin-left: 51.5873016%; /*5colx54+4x30=390px 390/756*/
 			}
 
 		ul.resume li.locdate {
