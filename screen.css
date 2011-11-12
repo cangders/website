@@ -150,7 +150,7 @@ p {
 			}
 
 		#topbar {
-			/* border: 1px solid red;*/
+			border: 1px solid red;
 			clear: both;
 			}
 			
@@ -159,6 +159,8 @@ p {
 			width: 84px;
 			margin-right: 84px;
 			float: left;
+			border: 0px solid white;
+			margin-bottom: 0px;
 			}
 
 		ul#navigation li a:link, ul#navigation a:visited{
