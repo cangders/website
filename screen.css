@@ -37,7 +37,7 @@ div#content {
 /* Navigation */
 
 #topbar {
-		background-color: #FF0000
+		background-color: #FFF;
 }
 
 ul#navigation li {
@@ -46,7 +46,7 @@ ul#navigation li {
 }
 
 ul#navigation li a:link, ul#navigation a:visited {
-		color: #FFF;
+		color: #000;
 		text-decoration: none;
 		padding: 3px;
 }
