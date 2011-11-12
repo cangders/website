@@ -143,15 +143,18 @@ p {
 
 /* media queries for 1010px*/
 
-@media screen and (min-width: 900px) { 
+@media screen and (min-width: 800px) { 
 		div#page { 
 			/*width: 978px;*/
 			/*padding: 0px 15px 0px 15px;*/ /*commented out width px and padding to test flex design */
+			max-width: 1300px;
+			margin: 0px auto;
 			}
 
 		#topbar {
 			border: 1px solid red;
 			/*clear: both;*/
+			position: relative;
 			}
 			
 		ul#navigation li {
