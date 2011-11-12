@@ -20,7 +20,7 @@ html {
 		font-size: 14px;
 		line-height: 20px;
 		background-color: #FFF;
-		/*background-image: url('img/20px-baseline.png');*/
+		background-image: url('img/20px-baseline.png');
 }
 
 div#page {
@@ -151,7 +151,7 @@ p {
 
 		#topbar {
 			border: 1px solid red;
-			clear: both;
+			/*clear: both;*/
 			}
 			
 		ul#navigation li {
@@ -190,7 +190,7 @@ p {
 /* sidebar css */
 		#sidebar {
 			/*position: relative;*/
-			float: right;
+			float: right; /*side bar will be on the right side*/
 			/*width: 222px;/* /* 54x3 + 2x30 */
 			width: 22.6993865% /*222px/978px */
 			}
@@ -200,7 +200,7 @@ p {
 			}
 
 		.intro {
-			width: 600px;
+			/*width: 600px;*/
 			}
 
 		.image {
