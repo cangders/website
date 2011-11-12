@@ -142,8 +142,8 @@ p {
 
 @media screen and (min-width: 900px) { 
 		div#page { 
-			width: 978px;
-			padding: 0px 15px 0px 15px;
+			/*width: 978px;*/
+			/*padding: 0px 15px 0px 15px;*/ /*commented out width px and padding to test flex design */
 			}
 
 		#topbar {
@@ -183,14 +183,14 @@ p {
 
 /* sidebar css */
 		#sidebar {
-			position: relative;
+			/*position: relative;*/
 			float: right;
-			width: 222px; /* 54x3 + 2x30 */
+			/*width: 222px;/* /* 54x3 + 2x30 */
+			width: 22.6993865% /*222px/978px */
 			}
 
 		#content {
-
-			width: 60%;
+			width: 77.3006135%; /* 756px/978px */
 			}
 
 		.intro {
