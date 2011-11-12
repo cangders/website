@@ -140,9 +140,9 @@ p {
 
 /* media queries for 1010px*/
 
-@media screen and (min-width: 900px) { /*1010px*/
-		div#page { /*Copy code from grid.css when done experimenting.*/ 
-			width: 978px; /*Total with works out to 1008*/
+@media screen and (min-width: 900px) { 
+		div#page { 
+			width: 978px;
 			padding: 0px 15px 0px 15px;
 			}
 
