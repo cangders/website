@@ -147,7 +147,8 @@ p {
 			}
 
 		#topbar {
-
+			border: 1px solid red;
+			clear: both;
 			}
 			
 		ul#navigation li {
@@ -159,8 +160,6 @@ p {
 
 		ul#navigation li a:link, ul#navigation a:visited{
 			color: #000;
-
-
 			}
 			
 		ul#navigation {
