@@ -200,10 +200,11 @@ p {
 
 		#content {
 			width: 77.3006135%; /* 756px/978px */
+			margin-top: 40px;
 			}
 
 		.intro {
-			/*width: 600px;*/
+			width: 59.5238095%; /*450px/756*/
 			}
 
 		.image {
