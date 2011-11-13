@@ -141,11 +141,10 @@ p {
 		margin-bottom: 20px;
 }
 
-/* media queries for 1010px*/
+/* media queries for 700px*/
 
-@media screen and (min-width: 800px) { 
+@media screen and (min-width: 700px) { 
 		div#page { 
-			/*width: 978px;*/
 			padding: 0px 15px 0px 15px; /*commented out width px and padding to test flex design */
 			max-width: 1300px;
 			margin: 0px auto;
