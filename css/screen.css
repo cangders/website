@@ -23,6 +23,11 @@ html {
 		/*background-image: url('img/20px-baseline.png');*/
 }
 
+a:link, a:visited {
+		color: black;
+		text-decoration: none;
+}
+
 div#page {
 		/*background-image: url('img/978px-15-54-15-unit.png');*/ /*vertical gridlines*/
 		margin-left: 15px;
@@ -50,7 +55,6 @@ ul#navigation li {
 
 ul#navigation li a:link, ul#navigation a:visited {
 		color: #000;
-		text-decoration: none;
 		padding: 3px;
 }
 
@@ -141,7 +145,7 @@ p {
 		margin-bottom: 20px;
 }
 
-/* media queries for 700+px*/
+/* media queries for 700px*/
 
 @media screen and (min-width: 700px) { 
 		div#page { 
