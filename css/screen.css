@@ -147,7 +147,13 @@ p {
 
 /* media queries for larger than a smartphone*/
 
-@media screen and (min-width: 500px) { 
+@media screen and (min-width: 480px) { 
+
+}
+
+/*big enough for navigation menu to fit across*/
+
+@media screen and (min-width: 768px) { 
 		div#page { 
 			padding: 0px 15px 0px 15px; /*commented out width px and padding to test flex design */
 			}
