@@ -150,8 +150,6 @@ p {
 @media screen and (min-width: 500px) { 
 		div#page { 
 			padding: 0px 15px 0px 15px; /*commented out width px and padding to test flex design */
-			max-width: 1300px;
-			margin: 0px auto;
 			}
 
 		#topbar {
@@ -233,3 +231,12 @@ p {
 
 /* end of media queries for 500px */
 
+/* begin grid design */
+
+@media screen and (min-width: 900px) { 
+		div#page { 
+			width: 978px;
+			padding: 0px 15px 0px 15px;
+			margin: 0px auto;
+			}
+}
