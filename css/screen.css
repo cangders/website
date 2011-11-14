@@ -145,9 +145,9 @@ p {
 		margin-bottom: 20px;
 }
 
-/* media queries for 700px*/
+/* media queries for larger than a smartphone*/
 
-@media screen and (min-width: 700px) { 
+@media screen and (min-width: 500px) { 
 		div#page { 
 			padding: 0px 15px 0px 15px; /*commented out width px and padding to test flex design */
 			max-width: 1300px;
@@ -231,5 +231,5 @@ p {
 			}
 }
 
-/* end of media queries for 1010px */
+/* end of media queries for 500px */
 
