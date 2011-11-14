@@ -75,22 +75,20 @@ ul#supporting li {
 
 /*begin specific CSS for portfolio page*/
 
-.image {
-		/*height: 199px;
-		width: 251px;
-		margin-bottom: 20px;*/
-}
-
-
-
 img {
 		max-width: 100%;
 		display: block;
 		border: 1px solid #000;
 }
 
+.image {
+		/*height: 199px;
+		width: 251px;
+		margin-bottom: 20px;*/
+}
+
 .caption {
-		width: 252px;
+		/*width: 252px;*/
 }
 
 /*begin specific CSS for resume page*/
