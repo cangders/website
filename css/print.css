@@ -75,17 +75,6 @@ acronym:after {
 /* 
 begin Charise CSS
 */
-#header {
-      display:none;
-}
-
-#navigation {
-      display:none;
-}
-
-#portfolio {
-      display:none;
-}
 
 html {
 		margin: 0;		
@@ -94,33 +83,24 @@ html {
 		font-family: "Bell MT", "Times New Roman", serif;
 		font-weight: normal;
 		font-size: 10pt;
-
 }
 
-.image {
-		padding: 18px;
-}
-
-.caption {
+.image,.caption {
 		width: 60%;
 		padding: 18px;
 }
 
-ul.address li{
+ul.address li, ul.resume li, ul.portfolio li ul.intro li {
 		list-style-type: none;
 }
 
-ul.resume li {
-		list-style-type: none;
-}
 
 /*make second line same indentation*/
 
 ul.resume li li { 
 		list-style: square inside; 
-		padding-left: 4em;
+		padding-left: 27px; /*make second line same indentation*/
 }
-
 
 ul.resume li.org { 
 		font-size: 16px;      
@@ -136,17 +116,8 @@ ul.resume li.title {
 		font-weight: bold;
 }
 
-/*make second line same indentation*/
-
-
-li { 
-		list-style: square inside; 
-		padding-left: 4em;
-}
-
 h2 { 
 		font-size: 11pt;
 		text-decoration: underline;
-		
 }
 
