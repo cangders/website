@@ -111,7 +111,7 @@ ul.resume li li {
 }
 
 ul.resume li.org { 
-		font-size: 16pt;      
+		font-size: 10pt;      
 		line-height: 24pt;
 		margin-top: 18pt;
 }
@@ -125,7 +125,7 @@ ul.resume li.title {
 }
 
 h2 { 
-		font-size: 11pt;
+		font-size: 14pt;
 		text-decoration: underline;
 		margin-top: 11pt;
 }
