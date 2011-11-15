@@ -45,6 +45,7 @@ ul#navigation li {
 ul#navigation li a:link, ul#navigation a:visited {
 		color: #000;
 		padding: 3px;
+		display: block;
 }
 
 /* end Navigation */
@@ -52,6 +53,7 @@ ul#supporting li a:link, ul#supporting a:visited {
 		color: #FFF;
 		text-decoration: none;
 		padding: 0px;
+		display: block;
 		}
 			
 ul#supporting li {
