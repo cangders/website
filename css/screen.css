@@ -165,10 +165,6 @@ div#footer p.credits, div#footers p.validators {
 			color: #000;
 			}
 			
-		ul#navigation {
-	
-			}
-
 /*Supporting CSS*/
 		ul#supporting li a:link, ul#supporting a:visited {
 			color: #FFF;
@@ -193,6 +189,7 @@ div#footer p.credits, div#footers p.validators {
 		#content {
 			width: 77.3006135%; /* 756px/978px */
 			margin-top: 40px;
+			float: left;
 			}
 
 		.intro {
