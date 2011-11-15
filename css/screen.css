@@ -19,8 +19,7 @@ html {
 		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
 		font-size: 14px;
 		line-height: 20px;
-		/*background-color: #FFF;*/
-		background-image: url('img/20px-baseline.png');
+		background-color: #FFF;
 }
 
 a:link, a:visited {
@@ -32,17 +31,9 @@ div#page {
 		background-image: url('img/978px-15-54-15-unit.png'); /*vertical gridlines*/
 		margin-left: 15px;
 		margin-right: 15px;
-		/*margin: 0 auto;*/ /* margin 0 auto centers the page?*/
-}
-
-div#content {	
 }
 
 /* Navigation */
-
-#topbar {
-
-}
 
 ul#navigation li {
 		font-size: 16px;      
@@ -79,16 +70,6 @@ img {
 		border: 1px solid #000;
 }
 
-.image {
-		/*height: 199px;
-		width: 251px;
-		margin-bottom: 20px;*/
-}
-
-.caption {
-		/*width: 252px;*/
-}
-
 /*begin specific CSS for resume page*/
 
 li.title {
@@ -123,9 +104,6 @@ ul.resume li.title {
 		font-weight: bold;
 }
 
-/*Don't use units with line-height to allow for easy resizing? 1.5 -htmldogs*/
-/*baseline grid per Miner, line height %150 of font-size*/
-
 h1 { 
 		font-size: 24px;
 		line-height: 40px;
@@ -141,22 +119,16 @@ p {
 		margin-bottom: 20px;
 }
 
-/* media queries for larger than a smartphone*/
-
-@media screen and (min-width: 480px) { 
-
-}
 
 /*big enough for navigation menu to fit across*/
 
 @media screen and (min-width: 768px) { 
 		div#page { 
-			padding: 0px 15px 0px 15px; /*commented out width px and padding to test flex design */
+			padding: 0px 15px 0px 15px; 
 			}
 
 		#topbar {
 			border: 1px solid red;
-			/*clear: both;*/
 			position: relative;
 			}
 			
@@ -190,14 +162,11 @@ p {
 			margin-bottom: 10px;
 			padding: 0 0 0 10px;
 			background-color: #FF0000;
-			/*width: 51.3513514%*/ /*114px/222px*/
 			}
 
 /* sidebar css */
 		#sidebar {
-			/*position: relative;*/
 			float: right; /*side bar will be on the right side*/
-			/*width: 222px;/* /* 54x3 + 2x30 */
 			width: 22.6993865% /*222px/978px */
 			}
 
