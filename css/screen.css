@@ -37,6 +37,10 @@ div#page {
 		margin-right: 15px;
 }
 
+div#content {
+		margin-bottom: 40px;
+}
+
 /* Navigation */
 
 ul#navigation li {
@@ -128,7 +132,6 @@ p {
 /* Footer */
 
 div#footer {
-		margin-top: 40px;
 		margin-bottom: 40px;
 		font-size: 10px;
 		line-height: 10px;
@@ -188,7 +191,7 @@ div#footer p.credits, div#footers p.validators {
 
 		#content {
 			width: 77.3006135%; /* 756px/978px */
-			margin-top: 40px;
+			margin-top: 20px;
 			float: left;
 			}
 
