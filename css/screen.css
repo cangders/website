@@ -125,6 +125,20 @@ p {
 		margin-bottom: 20px;
 }
 
+/* Footer */
+
+div#footer {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		font-size: 10px;
+		line-height: 10px;
+		clear: both;
+}
+
+div#footer p.credits, div#footers p.validators {
+
+}
+
 
 /*big enough for navigation menu to fit across*/
 
