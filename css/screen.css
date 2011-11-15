@@ -19,8 +19,8 @@ html {
 		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
 		font-size: 14px;
 		line-height: 20px;
-		background-color: #FFF;
-		/*background-image: url('img/20px-baseline.png');*/
+		/*background-color: #FFF;*/
+		background-image: url('img/20px-baseline.png');
 }
 
 a:link, a:visited {
@@ -29,20 +29,18 @@ a:link, a:visited {
 }
 
 div#page {
-		/*background-image: url('img/978px-15-54-15-unit.png');*/ /*vertical gridlines*/
+		background-image: url('img/978px-15-54-15-unit.png'); /*vertical gridlines*/
 		margin-left: 15px;
 		margin-right: 15px;
 		/*margin: 0 auto;*/ /* margin 0 auto centers the page?*/
 }
 
 div#content {	
-		/*background-color: #FFC8BF;*/
 }
 
 /* Navigation */
 
 #topbar {
-		background-color: #FFF;
 
 }
 
@@ -214,29 +212,22 @@ p {
 
 /*portfolio page*/
 
-		.image {
-			/*position: absolute;*/
-			/*height: 199px;*/ /*15x20= 300 - 2px (border) = 298px  */
-			width: 40.4761905%;/* 4colx54 + 4gx30 = 306px / 756px */
-			/*margin-bottom: 20px;*/
+		.portfolio li{
+			width: 40.4761905%; /*306px/756px*/
 			float: left;
-			}
-
+		}
+	
 		.caption {
-			/*position: relative; */
-			/*left: 55.5555556%;*/ /* 420px/756px */    
-			width: 40.2116402%; /*304/756px */
-			/*height: 259px;*/ /*199+60*/
 			margin-left: 11.1111111%; /*84/756*/
-			/*float: right;*/
-			}
+		}
 
+/*resume page*/
 		ul.resume li.locdate {
 			float: right;
 			}
 }
 
-/* end of media queries for 500px */
+/* end of media queries for 768px */
 
 /* begin grid design */
 
