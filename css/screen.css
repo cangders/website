@@ -139,6 +139,7 @@ div#footer {
 }
 
 div#footer p.credits, div#footers p.validators {
+		margin-bottom: 0px;
 
 }
 
