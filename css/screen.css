@@ -212,12 +212,14 @@ p {
 
 /*portfolio page*/
 
-		.portfolio li{
+		.image{
 			width: 40.4761905%; /*306px/756px*/
 			float: left;
 		}
 	
 		.caption {
+			width: 44.4444444%; /*336px/756px*/
+			float: left;
 			margin-left: 11.1111111%; /*84/756*/
 		}
 
