@@ -40,7 +40,8 @@ i,em,cite { font-style: italic; }
 ul.accessibility,
 ul#navigation,
 div#footer,
-#supporting {
+#supporting,
+img {
 	display: none;
 }
 
