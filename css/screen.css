@@ -131,14 +131,14 @@ p {
 
 /* Footer */
 
-div#footer {
+footer {
 		margin-bottom: 40px;
 		font-size: 10px;
 		line-height: 20px;
 		clear: both;
 }
 
-div#footer p.credits, div#footers p.validators {
+footer p.credits, footers p.validators {
 		margin-bottom: 0px;
 
 }
@@ -151,7 +151,7 @@ div#footer p.credits, div#footers p.validators {
 			padding: 0px 15px 0px 15px; 
 			}
 
-		#topbar {
+		nav {
 			border: 1px solid red;
 			position: relative;
 			}
@@ -165,7 +165,7 @@ div#footer p.credits, div#footers p.validators {
 			margin-bottom: 0px;
 			}
 
-		ul#navigation li a:link, ul#navigation a:visited{
+		ul#navigation li a:link, ul#navigation li a:visited{
 			color: #000;
 			}
 			
