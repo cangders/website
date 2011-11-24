@@ -169,14 +169,14 @@ footer p.credits, footers p.validators {
 			color: #000;
 			}
 			
-/*Supporting CSS*/
-		ul#supporting li a:link, ul#supporting a:visited {
+/*Supporting CSS, change to HTML5 from supporting to aside*/
+		aside ul li a:link, aside ul li a:visited {
 			color: #FFF;
 			text-decoration: none;
 			padding: 0px;
 			}
 		
-		ul#supporting li {
+		aside ul li {
 			line-height: 40px;
 			margin-top: 10px;
 			margin-bottom: 10px;
@@ -184,8 +184,8 @@ footer p.credits, footers p.validators {
 			background-color: #FF0000;
 			}
 
-/* sidebar css */
-		#sidebar {
+/* sidebar css change to aside */
+		aside {
 			float: right; /*side bar will be on the right side*/
 			width: 22.6993865% /*222px/978px */
 			}
