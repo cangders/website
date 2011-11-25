@@ -20,6 +20,7 @@ html {
 		font-size: 14px;
 		line-height: 20px;
 		/*background-color: #FFF;*/
+		/*Copy code (line-height, font-size) from grid.css when done experimenting.*/
 }
 
 ul.accessibility {
@@ -31,11 +32,17 @@ a:link, a:visited {
 		text-decoration: none;
 }
 
+/*
+
 div#page {
-		background-image: url('img/978px-15-54-15-unit.png'); /*vertical gridlines*/
+
 		margin-left: 15px;
 		margin-right: 15px;
 }
+
+comment out to test grids
+
+*/
 
 div#content {
 		margin-bottom: 40px;
@@ -147,86 +154,12 @@ p.credits, p.validators {
 /*big enough for navigation menu to fit across*/
 
 @media screen and (min-width: 768px) { 
-		div#page { 
-			padding: 0px 15px 0px 15px; 
-			}
 
-		nav ul{
-			border: 1px solid red;
-			position: relative;
-			}
-			
-		ul#navigation li {
-			font-size: 16px;      
-			width: 84px;
-			margin-right: 84px;
-			float: left;
-			border: 0px solid white;
-			margin-bottom: 0px;
-			}
-
-		ul#navigation li a:link, ul#navigation li a:visited{
-			color: #000;
-			}
-			
-/*Supporting CSS, change to HTML5 from supporting to aside*/
-		aside ul li a:link, aside ul li a:visited {
-			color: #FFF;
-			text-decoration: none;
-			padding: 0px;
-			}
-		
-		aside ul li {
-			line-height: 40px;
-			margin-top: 10px;
-			margin-bottom: 10px;
-			padding: 0 0 0 10px;
-			background-color: #FF0000;
-			}
-
-/* sidebar css change to aside */
-		aside {
-			float: right; /*side bar will be on the right side*/
-			width: 22.6993865% /*222px/978px */
-			}
-
-		#content {
-			width: 77.3006135%; /* 756px/978px */
-			margin-top: 20px;
-			float: left;
-			}
-
-		.intro {
-			width: 59.5238095%; /*450px/756*/
-			}
-
-/*portfolio page*/
-
-		.image{
-			width: 40.4761905%; /*306px/756px*/
-			float: left;
-		}
-	
-		.caption {
-			width: 44.4444444%; /*336px/756px*/
-			float: left;
-			margin-left: 11.1111111%; /*84/756*/
-		}
-
-/*resume page*/
-		ul.resume li.locdate {
-			float: right;
-			}
 }
 
 /* end of media queries for 768px */
 
 /* begin grid design */
 
-@media screen and (min-width: 900px) { 
-		div#page { 
-			width: 978px;
-			padding: 0px 15px 0px 15px;
-			margin: 0px auto;
-			}
+@media screen and (min-width: 900px) {
 }
