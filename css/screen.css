@@ -131,14 +131,14 @@ p {
 
 /* Footer */
 
-footer {
+footer p {
 		margin-bottom: 40px;
 		font-size: 10px;
 		line-height: 20px;
 		clear: both;
 }
 
-footer p.credits, footers p.validators {
+p.credits, p.validators {
 		margin-bottom: 0px;
 
 }
@@ -151,7 +151,7 @@ footer p.credits, footers p.validators {
 			padding: 0px 15px 0px 15px; 
 			}
 
-		nav {
+		nav ul{
 			border: 1px solid red;
 			position: relative;
 			}
