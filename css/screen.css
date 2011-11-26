@@ -26,7 +26,7 @@ Disconnect: B90504 or 185,5,4
 .t20 {
   line-height: 20px;
   font-size: 14px;
-  background: url(https://github.com/karlstolley/grids/blob/master/img/20px-baseline.png?raw=true);
+  /*background: url(https://github.com/karlstolley/grids/blob/master/img/20px-baseline.png?raw=true);*/
   
 }
 
@@ -171,7 +171,7 @@ p.credits, p.validators {
 .g978 #page {
 		width: 300px; /*Total width works out to 312px*/
 		padding: 0px 6px 0px 6px;
-		background: url(https://github.com/karlstolley/grids/blob/master/img/300px-6-27-6-8c.png?raw=true);
+		/*background: url(https://github.com/karlstolley/grids/blob/master/img/300px-6-27-6-8c.png?raw=true);*/
   		margin: 0px auto;
 }
 
@@ -183,7 +183,7 @@ p.credits, p.validators {
 	  .g978 #page { 
 		width: 748px; /*Total width works out to 768px*/
 		padding: 0px 10px 0px 10px;
-		background: url(https://github.com/karlstolley/grids/blob/master/img/748px-10-44-10-12c.png?raw=true);
+		/*background: url(https://github.com/karlstolley/grids/blob/master/img/748px-10-44-10-12c.png?raw=true); */
 		}
 
 
