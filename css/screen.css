@@ -23,15 +23,11 @@ Schizophrenia: 990100 or 153,1,0
 Disconnect: B90504 or 185,5,4
 */
 
-.t20 {
-  line-height: 20px;
-  font-size: 14px;
-  /*background: url(https://github.com/karlstolley/grids/blob/master/img/20px-baseline.png?raw=true);*/
-  
-}
-
 html {
-		/*Copy code (line-height, font-size) from grid.css when done experimenting.*/
+		line-height: 20px;
+		font-size: 14px;
+		background: url(https://github.com/karlstolley/grids/blob/master/img/20px-baseline.png?raw=true);
+ 
 
 }
 
@@ -47,12 +43,17 @@ a:link, a:visited {
 div#page {
 		color: black;
 		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
-		/*background-color: rgb(232,232,232);*/
 }
 
+
 header, header a:link, header a:visited {
-	background-color: #333333;
+	background: #333333; /*rgb(51,51,51)*/
+	opacity: .75; /*using opacity to see gridlines, comment out when done*/
 	color: #F6F6F6;
+}
+
+em.page {
+	color: #990100;
 }
 
 div#content {
