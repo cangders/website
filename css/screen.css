@@ -8,6 +8,18 @@ html{color:#000;background:#FFF}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}
 address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
 q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
+/*
+color palette: This Charming Man -http://www.colourlovers.com/palette/614092/This_Charming_Man
+
+White: FFFFFF or 255,255,255
+Grr-ey: 333333 or 51,51,51
+Black: 000000 or 0,0,0
+all cs(light grey): CCCCCC or 204,204,204
+Handsome Devil: 8C3130 or rgb(140,49,48)
+
+*/
+
 /* 
 begin Charise CSS
 grid is 20px
@@ -54,7 +66,7 @@ ul#navigation li {
 		font-size: 16px;      
 		line-height: 36px;
 		margin-bottom: 3px;
-		border: 1px solid red;
+		border: 1px solid rgb(153, 1, 0);
 }
 
 ul#navigation li a:link, ul#navigation a:visited {
@@ -76,7 +88,7 @@ ul#supporting li {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		padding: 0 0 0 10px;
-		background-color: #FF0000;
+		background-color: rgb(153, 1, 0);
 }
 
 /*begin specific CSS for portfolio page*/
