@@ -23,12 +23,13 @@ Schizophrenia: 990100 or 153,1,0
 Disconnect: B90504 or 185,5,4
 */
 
+.t20 {
+  line-height: 20px;
+  font-size: 14px;
+  background: url(https://github.com/karlstolley/grids/blob/master/img/20px-baseline.png?raw=true);
+}
+
 html {
-		color: black;
-		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
-		font-size: 14px;
-		line-height: 20px;
-		/*background-color: #FFF;*/
 		/*Copy code (line-height, font-size) from grid.css when done experimenting.*/
 }
 
@@ -41,20 +42,17 @@ a:link, a:visited {
 		text-decoration: none;
 }
 
-/*
 
 div#page {
-
-		margin-left: 15px;
-		margin-right: 15px;
+		color: black;
+		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
+		/*background-color: rgb(232,232,232);*/
 }
 
-comment out to test grids
-
-*/
 
 div#content {
 		margin-bottom: 40px;
+		/*background-color: rgb(246,246,246);*/
 }
 
 /* Navigation */
@@ -63,7 +61,7 @@ ul#navigation li {
 		font-size: 16px;      
 		line-height: 36px;
 		margin-bottom: 3px;
-		border: 1px solid red;
+		border: 1px solid rgb(185,5,4);
 }
 
 ul#navigation li a:link, ul#navigation a:visited {
@@ -74,7 +72,7 @@ ul#navigation li a:link, ul#navigation a:visited {
 
 /* end Navigation */
 ul#supporting li a:link, ul#supporting a:visited {
-		color: #FFF;
+		color: rgb(246,246,246);
 		text-decoration: none;
 		padding: 0px;
 		display: block;
@@ -85,7 +83,7 @@ ul#supporting li {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		padding: 0 0 0 10px;
-		background-color: #FF0000;
+		background-color: rgb(185,5,4);
 }
 
 /*begin specific CSS for portfolio page*/
@@ -162,13 +160,115 @@ p.credits, p.validators {
 
 /*big enough for navigation menu to fit across*/
 
-@media screen and (min-width: 768px) { 
-
+.g978 #page {
+  width: 300px; /*Total width works out to 312px*/
+  padding: 0px 6px 0px 6px;
+  background: url(https://github.com/karlstolley/grids/blob/master/img/300px-6-27-6-8c.png?raw=true);
 }
 
-/* end of media queries for 768px */
+@media screen and (min-width: 760px) {
+	  .g978 #page { 
+		width: 748px; /*Total width works out to 768px*/
+		padding: 0px 10px 0px 10px;
+		background: url(https://github.com/karlstolley/grids/blob/master/img/748px-10-44-10-12c.png?raw=true);
+		}
 
-/* begin grid design */
+		nav ul{
+			border: 1px solid red;
+			position: relative;
+			}
+			
+		ul#navigation li {
+			font-size: 16px;      
+			width: 84px;
+			margin-right: 84px;
+			float: left;
+			border: 0px solid white;
+			margin-bottom: 0px;
+			}
 
-@media screen and (min-width: 900px) {
+		ul#navigation li a:link, ul#navigation li a:visited{
+			color: #000;
+			}
+			
+/*Supporting CSS, change to HTML5 from supporting to aside*/
+		aside ul li a:link, aside ul li a:visited {
+			color: #FFF;
+			text-decoration: none;
+			padding: 0px;
+			}
+		
+		aside ul li {
+			line-height: 40px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			padding: 0 0 0 10px;
+			background-color: #FF0000;
+			}
+
+/* sidebar css change to aside */
+		aside {
+			float: right; /*side bar will be on the right side*/
+			width: 22.6993865% /*222px/978px */
+			}
+
+		#content {
+			width: 77.3006135%; /* 756px/978px */
+			margin-top: 20px;
+			float: left;
+			}
+
+		.intro {
+			width: 59.5238095%; /*450px/756*/
+			}
+
+/*portfolio page*/
+
+		.image{
+			width: 40.4761905%; /*306px/756px*/
+			float: left;
+		}
+	
+		.caption {
+			width: 44.4444444%; /*336px/756px*/
+			float: left;
+			margin-left: 11.1111111%; /*84/756*/
+		}
+
+/*resume page*/
+		ul.resume li.locdate {
+			float: right;
+			}
+  
+}
+
+@media screen and (min-width: 1010px) {
+  /* See http://978.gs/ */
+	  .g978 #page {
+		width: 978px; /*Total with works out to 1008*/
+		padding: 0px 15px 0px 15px;
+		background: url(https://github.com/karlstolley/grids/blob/master/img/978px-15-54-15-12c.png?raw=true);
+		margin: 0px auto;
+		}
+}
+
+@media screen and (min-width: 1250px) {
+		  .g978 #page {
+			width: 1218px; /*Total width works out to 1248px*/
+			padding: 0px 15px 0px 15px;
+			background: url(https://github.com/karlstolley/grids/blob/master/img/1218px-15-48-15-16c.png?raw=true);
+		  }
+}
+
+@media screen and (min-width: 1410px) {
+		  .g978 #page {
+			width: 1378px; /*Total width works out to 1408px*/
+			padding: 0px 15px 0px 15px;
+			background: url(https://github.com/karlstolley/grids/blob/master/img/1378px-15-58-15-16c.png?raw=true);
+		  }
+}
+
+/* Example-specific Styles */
+a {
+  text-decoration: none; /*Lose underlining on links to make grid easier to see*/
 }
