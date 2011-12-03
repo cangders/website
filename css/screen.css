@@ -26,7 +26,7 @@ Disconnect: B90504 or 185,5,4
 html {
 		line-height: 20px;
 		font-size: 14px;
-		background: url(../img/20px-baseline.png);
+		/*background: url(../img/20px-baseline.png);*/
 }
 
 ul.accessibility {
@@ -56,7 +56,8 @@ em.page {
 
 div#content {
 		margin-bottom: 40px;
-		/*background-color: rgb(246,246,246);*/
+		background-color: rgb(232,232,232);
+		padding: 10px;
 }
 
 /* Navigation */
@@ -64,6 +65,7 @@ div#content {
 nav {
 		margin-bottom: 11px;
 		margin-top: 11px;
+		padding: 40px;
 }
 
 ul#navigation li {
@@ -171,7 +173,7 @@ p.credits, p.validators {
 .g978 #page {
 		width: 300px; /*Total width works out to 312px*/
 		padding: 0px 6px 0px 6px;
-		background: url(../img/300px-6-27-6-8c.png);
+		/*background: url(../img/300px-6-27-6-8c.png);*/
   		margin: 0px auto;
 }
 
@@ -183,7 +185,7 @@ p.credits, p.validators {
 	  .g978 #page { 
 		width: 748px; /*Total width works out to 768px*/
 		padding: 0px 10px 0px 10px;
-		background: url(../img/748px-10-44-10-12c.png);
+		/*background: url(../img/748px-10-44-10-12c.png);*/
 		}
 
 		nav {
@@ -259,7 +261,7 @@ p.credits, p.validators {
 	  .g978 #page {
 		width: 978px; /*Total with works out to 1008*/
 		padding: 0px 15px 0px 15px;
-		background: url(../img/978px-15-54-15-12c.png);
+		/*background: url(../img/978px-15-54-15-12c.png);*/
 		margin: 0px auto;
 		}
 }
@@ -268,7 +270,7 @@ p.credits, p.validators {
 		  .g978 #page {
 			width: 1218px; /*Total width works out to 1248px*/
 			padding: 0px 15px 0px 15px;
-			background: url(../img/1218px-15-48-15-16c.png);
+			/*background: url(../img/1218px-15-48-15-16c.png);*/
 		  }
 }
 
@@ -276,7 +278,7 @@ p.credits, p.validators {
 		  .g978 #page {
 			width: 1378px; /*Total width works out to 1408px*/
 			padding: 0px 15px 0px 15px;
-			background: url(../img/1378px-15-58-15-16c.png);
+			/*background: url(../img/1378px-15-58-15-16c.png);*/
 		  }
 }
 
