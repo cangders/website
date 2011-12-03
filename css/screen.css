@@ -263,6 +263,10 @@ p.credits, p.validators {
 		/*background: url(../img/978px-15-54-15-12c.png);*/
 		margin: 0px auto;
 		}
+		
+		ul.portfolio {
+			float: left;
+		}
 }
 
 @media screen and (min-width: 1250px) {
