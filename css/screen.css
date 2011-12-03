@@ -48,6 +48,7 @@ header, header a:link, header a:visited {
 	background: #333333; /*rgb(51,51,51)*/
 	/*opacity: .75; using opacity to see gridlines, comment out when done*/
 	color: #F6F6F6;
+	padding: 10px;
 }
 
 em.page {
@@ -65,7 +66,6 @@ div#content {
 nav {
 		margin-bottom: 11px;
 		margin-top: 11px;
-		padding: 40px;
 }
 
 ul#navigation li {
@@ -182,14 +182,13 @@ p.credits, p.validators {
 }
 
 @media screen and (min-width: 760px) {
-	  .g978 #page { 
-		width: 748px; /*Total width works out to 768px*/
-		padding: 0px 10px 0px 10px;
-		/*background: url(../img/748px-10-44-10-12c.png);*/
+		.g978 #page { 
+			width: 748px; /*Total width works out to 768px*/
+			padding: 0px 10px 0px 10px;
+			/*background: url(../img/748px-10-44-10-12c.png);*/
 		}
 
 		nav {
-			background: rgb(185,5,4); /*B90504*/
 			margin-bottom: 3px;
 		}
 			
@@ -207,28 +206,28 @@ p.credits, p.validators {
 			}
 			
 /*Supporting CSS, change to HTML5 from supporting to aside*/
-		aside ul li a:link, aside ul li a:visited {
+		ul#supporting li a:link, ul#supporting li a:visited {
 			color: #FFF;
 			text-decoration: none;
 			padding: 0px;
 			}
 		
-		aside ul li {
+		ul#supporting li {
 			line-height: 40px;
 			margin-top: 10px;
 			margin-bottom: 10px;
 			padding: 0 0 0 10px;
-			background-color: #FF0000;
+			background-color: rgb(185,5,4);
 			}
 
 /* sidebar css change to aside */
 		aside {
 			float: right; /*side bar will be on the right side*/
-			width: 22.6993865% /*222px/978px */
+			width: 22.9946524% /* 3 columns, 2 gutters = 172px, 172/748=0.229946524*/
 			}
 
 		#content {
-			width: 77.3006135%; /* 756px/978px */
+			width: 65.7754011%; /*492 /748=0.657754011*/
 			float: left;
 			}
 
