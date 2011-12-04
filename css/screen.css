@@ -187,6 +187,12 @@ p.credits, p.validators {
 			/*background: url(../img/748px-10-44-10-12c.png);*/
 		}
 
+		header {
+			-webkit-border-radius: 10px;
+			-mox-border-radius: 10px;
+			border-radius: 10px;
+		}
+		
 		nav {
 			margin-bottom: 3px;
 		}
@@ -219,6 +225,10 @@ p.credits, p.validators {
 			-webkit-transition: background .3s ease-in, color .3s ease-in;
 			-moz-transition: background .3s ease-in, color .3s ease-in;
 			transition: background .3s ease-in, color .3s ease-in;
+			/*round edges*/
+			-webkit-border-radius: 10px;
+			-mox-border-radius: 10px;
+			border-radius: 10px;
 			}
 
 		ul#supporting li a:hover, ul#supporting li a:active, ul#supporting li a:focus {
@@ -234,6 +244,9 @@ p.credits, p.validators {
 		#content {
 			width: 65.7754011%; /*492 /748=0.657754011*/
 			float: left;
+			-webkit-border-radius: 10px;
+			-mox-border-radius: 10px;
+			border-radius: 10px;
 			}
 
 		.intro {
