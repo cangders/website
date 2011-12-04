@@ -45,7 +45,7 @@ div#page {
 
 
 header, header a:link, header a:visited {
-		background: #333333; /*rgb(51,51,51)*/
+		background: #B90504/*rga(185,5,4)*/;
 		/*opacity: .75; using opacity to see gridlines, comment out when done*/
 		color: #F6F6F6;
 		padding: 10px;
@@ -195,7 +195,7 @@ p.credits, p.validators {
 
 		header {
 			-webkit-border-radius: 10px;
-			-mox-border-radius: 10px;
+			-moz-border-radius: 10px;
 			border-radius: 10px;
 		}
 		
@@ -233,7 +233,7 @@ p.credits, p.validators {
 			transition: background .3s ease-in, color .3s ease-in;
 			/*round edges*/
 			-webkit-border-radius: 10px;
-			-mox-border-radius: 10px;
+			-moz-border-radius: 10px;
 			border-radius: 10px;
 			}
 		
@@ -257,7 +257,7 @@ p.credits, p.validators {
 			width: 65.7754011%; /*492 /748=0.657754011*/
 			float: left;
 			-webkit-border-radius: 10px;
-			-mox-border-radius: 10px;
+			-moz-border-radius: 10px;
 			border-radius: 10px;
 			}
 
