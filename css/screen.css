@@ -104,6 +104,10 @@ img {
 		border: 1px solid #000;
 }
 
+.flex-container {
+		width: 90%;
+}
+
 /*begin specific CSS for resume page*/
 
 li.title {
@@ -291,6 +295,7 @@ p.credits, p.validators {
 		ul.portfolio {
 			float: left;
 		}
+	
 }
 
 @media screen and (min-width: 1250px) {
