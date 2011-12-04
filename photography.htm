@@ -12,6 +12,19 @@
 		<meta name="author" content="Charise Angderson" />
 		<meta name="description" content="Personal website for Charise Angderson." />
 
+		<!-- begin flexslider (http://flex.madebymuffin.com)-->
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		
+		<!-- Place in the <head>, after the three links -->
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+			$('.flexslider').flexslider();
+			});
+		</script>
+		<!--end flexslider-->
+		
 		<link rel="stylesheet" type="text/css" media="screen" href="css/grid.css"/>
 		<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css"/>
 		<link rel="stylesheet" type="text/css" media="print" href="css/print.css"/>
@@ -78,22 +91,26 @@
 	
 	<section>
 	
-		<h2>Still Image</h2>
-		<ul class="portfolio">
-			<li class="image"><a href="http://www.flickr.com/photos/shmoogy/4747904204/"><img src="img/flower500.jpg" alt="Yellow Flower" /></a></li>
-			<li class="caption">
-			<p>I took this picture of a yellow flower during my vacation in the Philippines in 2010. This is one of my first attempts at photography. I am particularly proud of this picture because I focused properly on
-			 the flower. Although I am not that knowledgeable about photography, I know it came out right because the flower is in focus and the background is blurry. Kevin did the appopriate editing using Adobe Lightroom. I took this picture using a Canon EOS Digital Rebel XS with a Tamron 17-50mm 2.8.</p></li>
-		</ul>
-
-		<h2>Action Shot</h2>
-		<ul class="portfolio">
-			<li class="image"><a href="http://www.flickr.com/photos/shmoogy/6140575699/"><img src="img/action.jpg" alt="Kevin Action Shot" /></a></li>
-			<li class="caption">
-			<p>One of Kevin's first gigs as a photographer was taking pictures for the Army. I thought it would be a good idea to take pictures of him in action so that propspective clients could
-			get a taste for how he works in the field. This is a picture of him trying to positioning the soldiers so that their group pictures would have better framing. I used a Fujifilm FinePix X100. </p></li>		
-			
-		</ul>
+		<!-- flexslider -->
+		<div class="flexslider">
+		  <ul class="slides">
+			<li>
+				<img src="img/flower500.jpg" />
+			</li>
+			<li>
+				<img src="img/food.jpg" />
+			</li>
+			<li>
+				<img src="img/kevin.jpg" />
+			</li>
+			<li>
+				<img src="img/haduken.jpg" />
+			</li>
+			<li>
+				<img src="img/action.jpg" />
+			</li>
+		  </ul>
+		</div>
 		
 	</section>
 	
