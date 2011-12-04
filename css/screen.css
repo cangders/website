@@ -211,10 +211,10 @@ p.credits, p.validators {
 			}
 			
 /*Supporting CSS, change to HTML5 from supporting to aside*/
-		ul#supporting li a:link, ul#supporting li a:visited {
-			color: #FFF;
-			text-decoration: none;
-			}
+		ul#supporting {
+			width: 76.744186%; /*172px-40= 132px/172px = 0.76744186*/
+			margin: 0 auto;
+		}
 		
 		ul#supporting li a {
 			line-height: 40px;
@@ -230,7 +230,13 @@ p.credits, p.validators {
 			-mox-border-radius: 10px;
 			border-radius: 10px;
 			}
+		
+		ul#supporting li a:link, ul#supporting li a:visited {
+			color: #FFF;
+			text-decoration: none;
+			}
 
+			
 		ul#supporting li a:hover, ul#supporting li a:active, ul#supporting li a:focus {
 			background: rgb(51,51,51);
 			}
