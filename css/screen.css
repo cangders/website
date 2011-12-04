@@ -105,9 +105,9 @@ img {
 }
 
 .flex-container {
-		width: 90%;
-		padding: 10px;
-		margin-bottom: 20px;
+	width:  86.6666667%; /* 260/300= 0.866666667*/
+	margin: auto;
+	margin-bottom: 20px;
 }
 
 /*begin specific CSS for resume page*/
@@ -261,10 +261,10 @@ p.credits, p.validators {
 			border-radius: 10px;
 			}
 
-		.intro {
+		.intro, .flex-container {
 			width: 59.5238095%; /*450px/756*/
 			}
-
+			
 /*portfolio page*/
 
 		.image{
@@ -277,6 +277,7 @@ p.credits, p.validators {
 			float: left;
 			margin-left: 11.1111111%; /*84/756*/
 		}
+
 
 /*resume page*/
 		ul.resume li.locdate {
@@ -297,7 +298,6 @@ p.credits, p.validators {
 		ul.portfolio {
 			float: left;
 		}
-	
 }
 
 @media screen and (min-width: 1250px) {
