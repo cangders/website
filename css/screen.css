@@ -45,14 +45,14 @@ div#page {
 
 
 header, header a:link, header a:visited {
-	background: #333333; /*rgb(51,51,51)*/
-	/*opacity: .75; using opacity to see gridlines, comment out when done*/
-	color: #F6F6F6;
-	padding: 10px;
+		background: #333333; /*rgb(51,51,51)*/
+		/*opacity: .75; using opacity to see gridlines, comment out when done*/
+		color: #F6F6F6;
+		padding: 10px;
 }
 
 em.page {
-	color: #990100;
+		color: #990100;
 }
 
 div#content {
@@ -216,8 +216,9 @@ p.credits, p.validators {
 			margin-bottom: 10px;
 			background: rgb(185,5,4);
 			/*transition here*/
-			-moz-transition: background .3s ease-in, color .3s ease-in;
 			-webkit-transition: background .3s ease-in, color .3s ease-in;
+			-moz-transition: background .3s ease-in, color .3s ease-in;
+			transition: background .3s ease-in, color .3s ease-in;
 			}
 
 		ul#supporting li a:hover, ul#supporting li a:active, ul#supporting li a:focus {
