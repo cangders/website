@@ -20,7 +20,10 @@
 		<!-- Place in the <head>, after the three links -->
 		<script type="text/javascript" charset="utf-8">
 			$(window).load(function() {
-			$('.flexslider').flexslider();
+				$('.flexslider').flexslider({
+				animation: "slide",
+				controlsContainer: ".flex-container"
+				});
 			});
 		</script>
 		<!--end flexslider-->
@@ -96,19 +99,24 @@
 		<div class="flexslider">
 		  <ul class="slides">
 			<li>
-				<img src="img/flower500.jpg" />
+				<img src="img/flower500.jpg" alt="yellow flower" />
+				<p class="flex-caption">One of my first pictures during my vacation in the Philippines.</p>
 			</li>
 			<li>
-				<img src="img/food.jpg" />
+				<img src="img/food.jpg" alt="food" />
+				<p class="flex-caption">My lunch entree at Cafes Des Architects in Chicago.</p>
 			</li>
 			<li>
-				<img src="img/kevin.jpg" />
+				<img src="img/kevin.jpg" alt="kevin" />
+				<p class="flex-caption">Kevin reviewing his pictures during his military photoshoot.</p>
 			</li>
 			<li>
-				<img src="img/haduken.jpg" />
+				<img src="img/haduken.jpg" alt="kevin and judah" />
+				<p class="flex-caption">Judah is immune to Kevin's haduken!</p>
 			</li>
 			<li>
-				<img src="img/action.jpg" />
+				<img src="img/action.jpg" alt="kevin in action" />
+				<p class="flex-caption">Kevin positioning the soldiers so that their group pictures would have better framing.</p>
 			</li>
 		  </ul>
 		</div>
