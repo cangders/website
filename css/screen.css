@@ -104,7 +104,7 @@ img {
 		border: 1px solid #000;
 }
 
-.flex-container {
+.flex-container, .me {
 	width:  86.6666667%; /* 260/300= 0.866666667*/
 	margin: auto;
 	margin-bottom: 20px;
