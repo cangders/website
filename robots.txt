@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /img/
+
+User-agent: *
+Disallow: /pdf/
+
+User-agent: *
+Disallow: /css/
+
+User-agent: *
+Disallow: /js/
+
+User-agent: *
+Disallow: /img/
+
+User-agent: *
+Disallow: /*.htm$#Begin Attracta SEO Tools Sitemap. Do not remove
+sitemap: http://cdn.attracta.com/sitemap/2467914.xml.gz
+#End Attracta SEO Tools Sitemap. Do not remove
+#Begin Attracta SEO Tools Sitemap. Do not remove
+sitemap: http://cdn.attracta.com/sitemap/2467912.xml.gz
+#End Attracta SEO Tools Sitemap. Do not remove
