@@ -57,8 +57,11 @@ em {
 
 div#content {
 		/*margin-bottom: 40px;
-		background-color: rgb(232,232,232);
-		padding: 10px;*/
+		background-color: rgb(232,232,232);*/
+		position: absolute;
+		padding-bottom: 100px;
+		padding-top: 100px;
+		
 }
 
 /* Navigation */
