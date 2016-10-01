@@ -42,7 +42,7 @@ div#page {
 		color: black;
 		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
 		position: absolute;
-		min-height: 100%;
+		min-height: 100%;ƒnag
 }
 
 
@@ -61,16 +61,15 @@ div#content {
 		/*margin-bottom: 40px;
 		background-color: rgb(232,232,232);*/
 		/*position: absolute;*/
-		padding-bottom: 100px;
-		padding-top: 100px;
+		padding-top: 40px;
 		
 }
 
 /* Navigation */
 
 nav {
-		margin-bottom: 11px;
-		margin-top: 11px;
+		margin-bottom: 40px;
+		margin-top: 40px;
 }
 
 ul#navigation li {
