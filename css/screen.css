@@ -42,6 +42,7 @@ div#page {
 		color: black;
 		font-family: 'Muli',"Franklin Gothic Book", Arial, sans-serif;
 		position: absolute;
+		min-height: 100%;
 }
 
 
