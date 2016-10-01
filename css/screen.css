@@ -148,14 +148,14 @@ ul.resume li.title {
 }
 
 h1 { 
-		/*font-family: 'Quattrocento', serif;*/
-		font-size: 48px;
-		line-height: 60px;
+
+		font-size: 24px;
+		line-height: 40px;
 		font-variant: small-caps;
 }
 
 h2 { 
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 40px;
 		margin-top: 20px;
 }
@@ -211,6 +211,19 @@ p.credits, p.validators {
 			border-radius: 10px;
 		}
 		
+		h1 { 
+			
+				font-size: 48px;
+				line-height: 60px;
+				font-variant: small-caps;
+		}
+
+		h2 { 
+				font-size: 20px;
+				line-height: 40px;
+				margin-top: 20px;
+		}
+
 		nav {
 			margin-bottom: 3px;
 		}
