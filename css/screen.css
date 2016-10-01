@@ -223,6 +223,7 @@ p.credits, p.validators {
 			margin-right: 84px;
 			float: left; /*makes list move across*/
 			border: 1px; /*gets rid of red border from mobile design*/
+			padding: 0px;
 			}
 
 		ul#navigation li a:link, ul#navigation li a:visited{
@@ -310,6 +311,11 @@ p.credits, p.validators {
 		
 		ul.portfolio {
 			float: left;
+		}
+		
+		div.wrapper {
+			width: 80%;
+			margin: 0 auto;
 		}
 }
 
