@@ -62,7 +62,7 @@ div#content {
 		background-color: rgb(232,232,232);*/
 		/*position: absolute;*/
 		padding-top: 40px;
-		
+		padding-bottom:100px; /* Height of the footer element */
 }
 
 /* Navigation */
