@@ -61,7 +61,6 @@ div#content {
 		/*margin-bottom: 40px;
 		background-color: rgb(232,232,232);*/
 		/*position: absolute;*/
-		padding-top: 40px;
 		padding-bottom:100px; /* Height of the footer element */
 }
 
@@ -189,8 +188,8 @@ p.credits, p.validators {
 
 
 .g978 #page {
-		width: 300px; /*Total width works out to 312px*/
-		padding: 0px 6px 0px 6px;
+
+		padding: 20px;
 		/*background: url(../img/300px-6-27-6-8c.png);*/
   		margin: 0px auto;
 }
@@ -297,6 +296,9 @@ p.credits, p.validators {
 		ul.resume li.locdate {
 			float: right;
 			}
+		div#content {
+			padding-top: 40px;
+		}
   
 }
 
