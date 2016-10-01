@@ -45,9 +45,9 @@ div#page {
 
 
 header, header a:link, header a:visited {
-		background: #B90504/*rga(185,5,4)*/;
+		/*background: #B90504rga(185,5,4)*/;
 		/*opacity: .75; using opacity to see gridlines, comment out when done*/
-		color: #F6F6F6;
+		color: #000;
 		padding: 10px;
 }
 
