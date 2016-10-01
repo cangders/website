@@ -48,7 +48,7 @@ header, header a:link, header a:visited {
 		/*background: #B90504rga(185,5,4)*/;
 		/*opacity: .75; using opacity to see gridlines, comment out when done*/
 		color: #000;
-		padding: 10px;
+		/*padding: 10px;*/
 }
 
 em {
