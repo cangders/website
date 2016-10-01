@@ -56,9 +56,9 @@ em {
 }
 
 div#content {
-		margin-bottom: 40px;
-		/%background-color: rgb(232,232,232);%/
-		padding: 10px;
+		/*margin-bottom: 40px;
+		background-color: rgb(232,232,232);
+		padding: 10px;*/
 }
 
 /* Navigation */
@@ -163,10 +163,18 @@ p {
 /* Footer */
 
 footer p {
-		margin-bottom: 40px;
+		/*margin-bottom: 40px;*/
 		font-size: 10px;
 		line-height: 20px;
 		clear: both;
+}
+
+footer {
+		width: 100%;
+		height: 100px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
 }
 
 p.credits, p.validators {
@@ -254,15 +262,15 @@ p.credits, p.validators {
 			}
 
 		#content {
-			width: 65.7754011%; /*492 /748=0.657754011*/
+			/*width: 65.7754011%; 492 /748=0.657754011
 			float: left;
 			-webkit-border-radius: 10px;
 			-moz-border-radius: 10px;
-			border-radius: 10px;
+			border-radius: 10px;*/
 			}
 
 		.intro, .flex-container {
-			width: 59.5238095%; /*450px/756*/
+			/*width: 59.5238095%; 450px/756*/
 			}
 			
 /*portfolio page*/
